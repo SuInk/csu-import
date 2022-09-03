@@ -10,7 +10,7 @@ import (
 func Login(c echo.Context) error {
 	// User ID from path `users/:id`
 
-	fmt.Println(c.FormValue("id") + "登录成功")
+	// fmt.Println(c.FormValue("id") + "登录成功")
 
 	user := &models.User{
 		Id:  c.FormValue("id"),

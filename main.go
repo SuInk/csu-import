@@ -10,5 +10,5 @@ func main() {
 	e.Static("/", "public")
 	// post 账号密码下载ics
 	e.POST("/api/download", controllers.Login)
-	e.Logger.Fatal(e.Start(":9093"))
+	e.Logger.Fatal(e.Start(":3000"))
 }
